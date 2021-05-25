@@ -35,9 +35,9 @@ function App() {
           </div>
 
           
-          <a href="#hero" className="up-button">
+          {/* <a href="#hero" className="up-button">
             <FontAwesomeIcon icon={faChevronUp} />
-          </a>
+          </a> */}
 
         </div>
 
