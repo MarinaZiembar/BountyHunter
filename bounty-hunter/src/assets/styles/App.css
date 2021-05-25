@@ -1,0 +1,52 @@
+/* Dark Violet: #050831;
+Light Violet: #133072;
+Pink: #e1035a;  */
+
+
+body{
+    font-family: 'Comfortaa', sans-serif;
+    font-weight:500;
+    margin:0px;
+    padding:0px;
+    overflow-y: hidden;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin:0px;
+}
+
+.App .bottom{
+    display: flex;
+}
+
+.App{
+    position:relative;
+}
+
+.App .up-button{
+    position:fixed;
+    z-index: 30;
+    bottom:35px;
+    right:35px;
+    background: #5e60ce;
+    color:white;
+    width:70px;
+    height:70px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 150px;
+    font-size: 26px;
+}
+
+
+@import url('./Menu.css');
+@import url('./Header.css');
+@import url('./Home.css');
+@import url('./ModalAddPoints.css');
+@import url('./ModalSuccess.css');
+@import url('./ModalFailure.css');
+@import url('./MyProfile.css');
+@import url('./Filters.css');
+@import url('./Paginator.css');
+@import url('./MediaQueries.css');
